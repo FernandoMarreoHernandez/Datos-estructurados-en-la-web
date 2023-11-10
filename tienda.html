@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda</title>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Store",
+      "name": "Minorista",
+      "openingHours": "Mo-Sa 08:00-22:00",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle el Sauce, 10",
+        "addressLocality": "Adeje",
+        "postalCode": "38670",
+        "addressCountry": "ES"
+      },
+      "seeks": {
+        "@type": "Demand",
+        "name": "Producto",
+        "eligibleQuantity": {
+          "@type": "QuantitativeValue",
+          "value": "1",
+          "unitCode": "KGM"
+        },
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": "1",
+          "priceCurrency": "EUR",
+          "eligibleTransactionVolume": {
+            "@type": "PriceSpecification",
+            "price": "1",
+            "priceCurrency": "EUR",
+            "minPrice": "1",
+            "maxPrice": "1"
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <h1> Tienda </h1>
+  <a href="./organizacion.html"> Organización </a>
+  <a href="./camion.html"> Camión </a>
+  <a href="./ciudad.html"> Ciudad </a>
+  <a href="./ruta.html"> Ruta </a>
+</body>
+
+</html>
